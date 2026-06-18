@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-blue: #3662e3;
+  --color-secondary-blue: #c2daf9;
+  --color-black: #121826;
+  --color-gray: #e5e7eb;
+  --color-gray-100: #f9fafb;
+  --color-gray-200: #4d5562;
+  --color-gray-300: #212936;
+  --color-gray-400: #212936;
+  --color-gray-500: #f9fafbcc;
+
+  --animate-progress-bar: progress-bar 1.5s ease-in-out infinite;
+
+  @keyframes progress-bar {
+    0% {
+      left: -30%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.dark body {
+  background-color: #121826;
+}
