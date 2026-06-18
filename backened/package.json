@@ -1,27 +1,5 @@
 {
-  "name": "upload-image",
-  "version": "1.0.0",
-  "description": "backend for uploading and shareing your images",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js"
-  },
   "dependencies": {
-    "cloudinary": "^2.10.0",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "express-async-handler": "^1.2.0",
-    "express-validator": "^7.3.2",
-    "mongoose": "^9.7.0",
-    "morgan": "^1.11.0",
-    "multer": "^2.2.0",
-    "sharp": "^0.35.1",
-    "uuid": "^8.3.2"
+    "sharp": "^0.35.1"
   }
 }
